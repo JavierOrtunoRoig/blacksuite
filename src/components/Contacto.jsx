@@ -7,7 +7,7 @@ export default function Contacto() {
 
       <div className="card">
         <p className="descripcion-contacto">
-          ¿Tienes alguna duda? ¿Quieres contactarnos? ¡No dudes en llamarnos!
+          ¿Tienes alguna duda? ¿Quieres pedirnos una cita? ¡No dudes en contactarnos!
         </p>
         <div className="redes-sociales">
           <p>Puedes seguirnos en instagram para contactarnos y saber más de nosotros </p>
@@ -29,7 +29,7 @@ export default function Contacto() {
             href="https://widget.koibox.cloud/#/centro/blacksuite-sl?ref=facebook"
             target="_blank"
           >
-            Pedir cita online
+            Pedir una cita
           </a>
         </div>
       </div>
