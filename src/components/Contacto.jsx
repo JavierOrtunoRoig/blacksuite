@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contacto() {
   return (
     <div id="contacto">
-      <h2>Contaco</h2>
+      <h2>Contacto</h2>
 
       <div className="card">
         <p className="descripcion-contacto">
