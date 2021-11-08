@@ -2,8 +2,11 @@ import Contacto from "./components/Contacto"
 import { Header } from "./components/Header"
 import Horarios from "./components/Horarios"
 import { ListaPrecios } from "./components/ListaPrecios"
+import Mapa from "./components/Mapa"
 import MyCarousel from "./components/MyCarousel"
 import Navbar from "./components/Navbar"
+
+
 
 function App() {
 
@@ -18,6 +21,7 @@ function App() {
         <MyCarousel />
         <ListaPrecios />
         <Horarios />
+        <Mapa />
         <Contacto />
       </main>
     </>
