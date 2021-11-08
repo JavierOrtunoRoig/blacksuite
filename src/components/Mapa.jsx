@@ -1,5 +1,6 @@
 import { MapContainer, Marker, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
+import { IconLocation } from './IconLocation'
 
 export default function Mapa() {
   return (
@@ -10,7 +11,7 @@ export default function Mapa() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
-        <Marker position={{ lat: '36.691526313772265', lng: '-4.444048720020822' }} />
+        <Marker position={{ lat: '36.691526313772265', lng: '-4.444048720020822' }} icon={ IconLocation } />
       </MapContainer>
     </div>
   )
