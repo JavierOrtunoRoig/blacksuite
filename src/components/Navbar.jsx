@@ -12,10 +12,16 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                <a className="nav-link" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#carousel">Ejemplos peinados</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#precios">Precios</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#horarios">Horarios</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contacto">Contacto</a>

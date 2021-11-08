@@ -1,5 +1,6 @@
 import Contacto from "./components/Contacto"
 import { Header } from "./components/Header"
+import Horarios from "./components/Horarios"
 import { ListaPrecios } from "./components/ListaPrecios"
 import MyCarousel from "./components/MyCarousel"
 import Navbar from "./components/Navbar"
@@ -16,6 +17,7 @@ function App() {
       <main >
         <MyCarousel />
         <ListaPrecios />
+        <Horarios />
         <Contacto />
       </main>
     </>

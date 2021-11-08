@@ -16,13 +16,13 @@ export default function Contacto() {
             target="_blank"
             id="instagram"
           >
-            <i class="fab fa-3x fa-instagram"></i>
+            <i className="fab fa-3x fa-instagram"></i>
           </a>
         </div>
 
         <div className="cita">
           <p>Si quieres pedir cita puedes llamarnos al:</p>
-          <p><i class="fas fa-phone"></i> 65684616</p>
+          <p><i className="fas fa-phone"></i> 65684616</p>
           <p> o puedes pedir una cita online </p>
 
           <a className="button-cita"
