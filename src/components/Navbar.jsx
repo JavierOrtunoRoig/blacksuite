@@ -1,6 +1,8 @@
-import React from 'react'
 
-export default function Navbar() {
+import translate from '../i18n/translate'
+
+export default function Navbar({isSpanish, toggleLanguage}) {
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
@@ -11,22 +13,30 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#inicio">Inicio</a>
+              <li className="nav-item" >
+                <a className="nav-link" aria-current="page" href="#inicio">{translate("navbarInicio")}</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#carousel">Ejemplos peinados</a>
+              <li className="nav-item" >
+                <a className="nav-link" href="#carousel">{translate("navbarEjemplo")} </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#precios">Precios</a>
+              <li className="nav-item" >
+                <a className="nav-link" href="#precios">{translate("navbarPrecios")}</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#horarios">Horarios</a>
+              <li className="nav-item" >
+                <a className="nav-link" href="#horarios">{translate("navbarHorarios")}</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contacto">Contacto</a>
+              <li className="nav-item" >
+                <a className="nav-link" href="#contacto">{translate("navbarContacto")}</a>
               </li>
-              
+            </ul>
+
+            <ul className="navbar-nav idiomas">
+              <li className={isSpanish ? 'nav-item active' : 'nav-item'}>
+                <p onClick={ toggleLanguage } >Español</p>
+              </li>
+              <li className={isSpanish ? 'nav-item' : 'nav-item active'}>
+                <p onClick={ toggleLanguage } >English</p>
+              </li>
             </ul>
           </div>
         </div>

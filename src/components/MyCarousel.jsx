@@ -5,6 +5,8 @@ import peinado3 from '../static/peinado3.jpg'
 import peinado4 from '../static/peinado4.jpg'
 import { useRef, useState } from "react"
 import styles from "../styles/myCarousel.module.css";
+import translate from '../i18n/translate'
+
 
 export default function MyCarousel() {
 
@@ -26,7 +28,7 @@ export default function MyCarousel() {
 
   return (
     <div id="carousel" className={styles.carousel} >
-      <h2>Ejemplos de peinados</h2>
+      <h2>{translate('ejemplosTitulo')}</h2>
       <Carousel
         enableAutoPlay={true}
         pagination={false}

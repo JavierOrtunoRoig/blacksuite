@@ -1,53 +1,54 @@
+import translate from '../i18n/translate';
 import styles from '../styles/horarios.module.css';
 
 export default function Horarios() {
   return (
     <div id="horarios" className={styles.horarios}>
 
-      <h2>Horarios</h2>
+      <h2>{translate('horariosTitulo')}</h2>
 
       <div className={styles['horarios-container']}>
         <div className={styles['dia-container']}>
           <div className={styles.dia}>
-            <p>Lunes</p>
+            <p>{translate('horariosLunes')}</p>
           </div>
-            <p>10:00 - 21:00</p>
+            <p>10:00 - 20:00</p>
         </div>
         <div className={styles['dia-container']}>
           <div className={styles.dia}>
-            <p>Martes</p>
+            <p>{translate('horariosMartes')}</p>
           </div>
-            <p>10:00 - 21:00</p>
+            <p>10:00 - 20:00</p>
         </div>
         <div className={styles['dia-container']}>
           <div className={styles.dia}>
-            <p>Miércoles</p>
+            <p>{translate('horariosMiercoles')}</p>
           </div>
-            <p>10:00 - 21:00</p>
+            <p>10:00 - 20:00</p>
         </div>
         <div className={styles['dia-container']}>
           <div className={styles.dia}>
-            <p>Jueves</p>
+            <p>{translate('horariosJueves')}</p>
           </div>
-            <p>10:00 - 21:00</p>
+            <p>10:00 - 20:00</p>
         </div>
         <div className={styles['dia-container']}>
           <div className={styles.dia}>
-            <p>Viernes</p>
+            <p>{translate('horariosViernes')}</p>
           </div>
-            <p>10:00 - 21:00</p>
+            <p>10:00 - 20:00</p>
         </div>
         <div className={styles['dia-container']}>
           <div className={styles.dia}>
-            <p>Sábado</p>
+            <p>{translate('horariosSabado')}</p>
           </div>
-            <p>10:00 - 16:00</p>
+            <p>10:00 - 13:00</p>
         </div>
         <div className={styles['dia-container']}>
           <div className={styles.dia}>
-            <p>Domingo</p>
+            <p>{translate('horariosDomingo')}</p>
           </div>
-            <p style={{paddingLeft: '15px'}} >Cerrado</p>
+            <p style={{paddingLeft: '15px'}} >{translate('horariosCerrado')}</p>
         </div>
       </div>
       

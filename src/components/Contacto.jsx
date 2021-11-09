@@ -1,16 +1,17 @@
+import translate from '../i18n/translate'
 import styles from '../styles/contacto.module.css'
 
 export default function Contacto() {
   return (
     <div id="contacto" className={styles.contacto}>
-      <h2>Contacto</h2>
+      <h2>{translate('contactoTitulo')}</h2>
 
       <div className={styles.card}>
         <p className={styles['descripcion-contacto']}>
-          ¿Tienes alguna duda? ¿Quieres pedirnos una cita? ¡No dudes en contactarnos!
+          {translate('contactoDescripcion')}
         </p>
         <div className={styles['redes-sociales']}>
-          <p>Puedes seguirnos en instagram para contactarnos y saber más de nosotros </p>
+          <p>{translate('contactoInstagram')}</p>
           <a
             href="https://www.instagram.com/blacksuitehairstudio/"
             target="_blank"
@@ -21,15 +22,15 @@ export default function Contacto() {
         </div>
 
         <div className={styles.cita}>
-          <p>Si quieres pedir cita puedes llamarnos al:</p>
-          <p><i className="fas fa-phone"></i> 65684616</p>
-          <p> o puedes pedir una cita online </p>
+          <p>{translate('contactoTelefono')}</p>
+          <p><i className="fas fa-phone"></i> 633 36 89 83</p>
+          <p>{translate('contactoOnline')}</p>
 
           <a className={styles['button-cita']}
             href="https://widget.koibox.cloud/#/centro/blacksuite-sl?ref=facebook"
             target="_blank"
           >
-            Pedir una cita
+            {translate('contactoBoton')}
           </a>
         </div>
       </div>
