@@ -1,0 +1,50 @@
+.horarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.horarios h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+}
+
+.horarios-container {
+  width: 80%;
+  border-radius: 1rem;
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  box-sizing: content-box;
+}
+
+.dia-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #0000001a;
+  padding-left: 14px;
+}
+
+.dia-container:last-child {
+  border-bottom: none;
+  padding: 0;
+}
+
+.dia-container > p {
+  margin: 0px;
+  padding: 10px 0;
+}
+
+.dia > p {
+  margin: 0px;
+}
+
+.dia {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

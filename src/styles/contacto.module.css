@@ -1,0 +1,75 @@
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacto h2 {
+  margin: 40px 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+}
+
+.card {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+
+.descripcion-contacto {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: solid 1px rgb(180, 179, 179);
+  margin: 0;
+}
+
+.redes-sociales {
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: solid 1px rgb(180, 179, 179);
+}
+
+.fa-instagram {
+  color: #008CCF;
+}
+
+.instagram {
+  transition: transform 0.5s ease;
+}
+
+.instagram:hover {
+  transform: scale(1.1);
+}
+
+.cita {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.button-cita {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  background: linear-gradient(180deg,#21c8f6,#637bff);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 5px 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.button-cita:hover {
+  color: white;
+  transform: translateY(-5px);
+}

@@ -15,7 +15,7 @@
 
 /* --------- INICIO --------- */
 
-#inicio {
+/* #inicio {
   width: 100%;
   height: 100vh;
   background-image: url('./static/wallaper_mobile.jpg');
@@ -28,8 +28,6 @@
 }
 
 .title-container {
-  /* background: linear-gradient(180deg,#272727,#ffffff1c); */
-  /* background: linear-gradient(180deg,#242424,#3c3a3a); */
   width: 260px;
   border-radius: 10px;
   display: flex;
@@ -52,12 +50,12 @@
   color: white;
   text-shadow: 2px 2px black;
   word-wrap: break-word;
-}
+} */
 
 
 /* --------- CAROUSEL --------- */
 
-#carousel {
+/* #carousel {
   margin: 20px 0;;
 }
 
@@ -66,11 +64,11 @@
   font-size: 2.6em;
   text-align: center;
   margin: 40px 0;
-}
+} */
 
 /* --------- PRECIOS --------- */
 
-
+/* 
 #precios {
   display: flex;
   justify-content: center;
@@ -157,11 +155,11 @@
 
 .listaPrecios > li:nth-child(odd) {
   margin: 20px 0px;
-}
+} */
 
 /* --------- HORARIOS --------- */
 
-#horarios {
+/* #horarios {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -210,12 +208,12 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* --------- CONTACTO --------- */
 
 
-#contacto {
+/* #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,16 +287,17 @@
 .button-cita:hover {
   color: white;
   transform: translateY(-5px);
-}
+} */
 
 /* --------- MAP --------- */
 
-.leaflet-container { /* Redefine una clase que viene por defecto en el css de leaflet */
+/* Redefine una clase que viene por defecto en el css de leaflet */
+.leaflet-container { 
   width: 100%;
   height: 400px;
 }
 
-.map-container {
+/* .map-container {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -310,4 +309,4 @@
   margin: 40px 0;
   font-family: 'Dancing Script', cursive;
   font-size: 3em;
-}
+} */

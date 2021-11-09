@@ -1,0 +1,30 @@
+
+.precios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.precios h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+}
+
+.listaPrecios {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.listaPrecios > li {
+  width: 80%;
+  height: 100px;
+}
+.listaPrecios > li:nth-child(odd) {
+  margin: 20px 0px;
+}

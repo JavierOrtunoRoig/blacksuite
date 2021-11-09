@@ -4,6 +4,7 @@ import peinado2 from '../static/peinado2.jpg'
 import peinado3 from '../static/peinado3.jpg'
 import peinado4 from '../static/peinado4.jpg'
 import { useRef, useState } from "react"
+import styles from "../styles/myCarousel.module.css";
 
 export default function MyCarousel() {
 
@@ -24,7 +25,7 @@ export default function MyCarousel() {
 
 
   return (
-    <div id="carousel">
+    <div id="carousel" className={styles.carousel} >
       <h2>Ejemplos de peinados</h2>
       <Carousel
         enableAutoPlay={true}

@@ -1,11 +1,12 @@
 import React from 'react'
 import { Precio } from './Precio'
+import styles from '../styles/listaPrecios.module.css'
 
 export const ListaPrecios = () => {
   return (
-    <article id="precios">
+    <article id="precios" className={styles.precios} >
       <h2>Lista de precios</h2>
-      <ul className="listaPrecios">
+      <ul className={styles.listaPrecios}>
         <Precio euros="8,95" tiempo={20} corte="Arreglo barba premium"/>
         <Precio euros="10,95" tiempo={30} corte="Corte basico"/>
         <Precio euros="11,95" tiempo={40} corte="Corte personalizado + Lavado + peinado productos"/>
