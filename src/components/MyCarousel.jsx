@@ -36,11 +36,13 @@ export default function MyCarousel() {
         onChange={handleLastPhoto}
         ref={carouselRef}
         showArrows={false}
+        transitionMs={2000}
+        autoPlaySpeed={3000}
       >
-        <img src={peinado1} style={{ maxWidth: "90%" }} />
-        <img src={peinado2} style={{ maxWidth: "90%" }} />
-        <img src={peinado3} style={{ maxWidth: "90%" }} />
-        <img src={peinado4} style={{ maxWidth: "90%" }} />
+        <img className={styles.ejemplo} src={peinado1} />
+        <img className={styles.ejemplo} src={peinado2} />
+        <img className={styles.ejemplo} src={peinado3} />
+        <img className={styles.ejemplo} src={peinado4} />
       </Carousel>
     </div>
   )

@@ -30,28 +30,31 @@
 
 
 /* *Para el navbar en pc */
-/* .navbar-collapse {
-  justify-content: space-evenly;
-}
 
-.idiomas {
-  color: rgba(255,255,255,.55);
-  height: 100%;
-  width: 40%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
+@media (min-width: 992px)  {
 
-.idiomas p {
-  margin: 0;
-  padding: 0 10px;
-}
-.idiomas p:hover {
-  cursor: pointer;
-}
+  .navbar-collapse {
+    justify-content: space-evenly;
+  }
+  
+  .idiomas {
+    color: rgba(255,255,255,.55);
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .idiomas p {
+    margin: 0;
+    padding: 0 10px;
+  }
+  .idiomas p:hover {
+    cursor: pointer;
+  }
 
- */
+}
 
 /* #inicio {
   width: 100%;
@@ -333,6 +336,14 @@
 .leaflet-container { 
   width: 100%;
   height: 400px;
+}
+
+@media (min-width: 992px) {
+  
+  .leaflet-container { 
+    width: 100%;
+    height: 600px;
+  }
 }
 
 /* .map-container {

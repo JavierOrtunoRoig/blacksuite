@@ -16,7 +16,12 @@
   border-radius: 1rem;
 	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
   box-sizing: content-box;
+  background: linear-gradient(180deg,#21c8f6,#637bff);
 }
+
+/* .horarios-container:hover {
+  background: linear-gradient(180deg,#21c8f6,#637bff);
+} */
 
 .dia-container {
   width: 100%;
@@ -26,11 +31,23 @@
   align-items: center;
   border-bottom: solid 1px #0000001a;
   padding-left: 14px;
+  background-color: white;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dia-container:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.dia-container:first-child {
+  border-radius: 1rem 1rem 0 0;
 }
 
 .dia-container:last-child {
   border-bottom: none;
   padding: 0;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .dia-container > p {
@@ -47,4 +64,11 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 992px)  {
+
+  .horarios-container {
+    width: 60%;
+  }
 }

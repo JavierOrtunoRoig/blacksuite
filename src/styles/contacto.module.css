@@ -72,3 +72,18 @@
   color: white;
   transform: translateY(-5px);
 }
+
+@media (min-width: 800px) {
+
+  .card {
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 992px) {
+
+  .card {
+    width: 40%;
+  }
+}
