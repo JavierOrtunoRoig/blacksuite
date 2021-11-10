@@ -29,7 +29,7 @@ export default {
     'horariosSabado': 'Sábado',
     'horariosDomingo': 'Domingo',
     'horariosCerrado': 'Cerrado',
-    'mapaTitulo': 'Donde estamos',
+    'mapaTitulo': 'Dónde estamos',
     'contactoTitulo': 'Contacto',
     'contactoDescripcion': '¿Tienes alguna duda? ¿Quieres pedirnos una cita? ¡No dudes en contactarnos!',
     'contactoInstagram': 'Puedes seguirnos en instagram para contactarnos y saber más de nosotros',
